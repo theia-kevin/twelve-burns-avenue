@@ -94,7 +94,7 @@ while (have_posts()) {
             </div>
         </div>
     </div>
-    <div class="container key-features" data-aos="slide-up">
+    <div class="container key-features" data-aos="slide-up" id="plan">
         <div class="row pb-5">
             <div class="offset-lg-2 col-lg-10 text-center text-lg-right">
                 <img class="img-fluid" src="<?php echo get_template_directory_uri() . '/resources/assets/images/Asset 10.png'; ?>" alt="">
@@ -129,7 +129,7 @@ while (have_posts()) {
             </div>
         </div>
     </div>
-    <div class="container floor-plan" data-aos="slide-up" id="plan">
+    <div class="container floor-plan" data-aos="slide-up">
         <div class="row">
             <div class="col-lg-7">
                 <div class="title-wrapper pb-5">
