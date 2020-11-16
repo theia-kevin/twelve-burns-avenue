@@ -1,14 +1,16 @@
 <?php
 get_header();
 
-while ( have_posts() ) {
-	the_post();
-	?>
-    <div class="container burns-ave">
+while (have_posts()) {
+    the_post();
+    ?>
+    <div class="container burns-ave" data-aos="slide-up">
         <div class="row">
             <div class="col-lg-12 col-wrapper">
-                <img class="img-fluid img-twelve" src="<?php echo get_template_directory_uri() . '/resources/assets/images/Asset 1.png'; ?>" alt="">
-                <div class="content-wrapper d-flex flex-column flex-wrap align-items-end">
+                <div class="text-left">
+                    <img class="img-fluid img-twelve" src="<?php echo get_template_directory_uri() . '/resources/assets/images/Asset 1.png'; ?>" alt="">
+                </div>
+                <div class="content-wrapper d-flex flex-column flex-wrap align-items-end" data-aos="slide-up">
                     <div class="year py-3">
                         2020
                     </div>
@@ -32,10 +34,10 @@ while ( have_posts() ) {
             </div>
         </div>
     </div>
-    <div class="container lifestyle" data-aos="shake-up-down">
+    <div class="container lifestyle" data-aos="slide-up">
         <div class="row">
             <div class="col-lg-7">
-                <img class="img-fluid" src="<?php echo get_template_directory_uri() . '/resources/assets/images/44.png'; ?>" alt="">
+                <img class="img-fluid" src="<?php echo get_template_directory_uri() . '/resources/assets/images/Asset 4.png'; ?>" alt="">
             </div>
             <div class="col-lg-5 d-flex flex-column flex-wrap justify-content-center align-items-start">
                 <div class="p-5">
@@ -49,7 +51,7 @@ while ( have_posts() ) {
                         <div class="txt-1">Takapuna - Unbeatable Location</div>
                         <div class="txt-2">Experience living in one of the best locations in New Zealand.</div>
                     </div>
-                    <a href="<?php echo get_permalink( get_page_by_path( 'lifestyle' ) ); ?>" class="d-inline-flex flex-row flex-wrap align-items-center pt-5">
+                    <a href="<?php echo get_permalink(get_page_by_path('lifestyle')); ?>" class="d-inline-flex flex-row flex-wrap align-items-center pt-5">
                         <div class="txt-readmore">Read More</div>
                         <div class="btn-readmore ml-3"><i class="fa fa-angle-right"></i></div>
                     </a>
@@ -57,14 +59,14 @@ while ( have_posts() ) {
             </div>
         </div>
     </div>
-    <div class="container-fluid px-0 akaruna-auckland" data-aos="shake-up-down">
+    <div class="container-fluid px-0 akaruna-auckland" data-aos="slide-up">
         <div class="row no-gutters">
-            <div class="offset-lg-3 col-lg-9">
+            <div class="offset-lg-4 col-lg-8">
                 <img class="img-fluid" src="<?php echo get_template_directory_uri() . '/resources/assets/images/Asset 5.png'; ?>" alt="">
             </div>
         </div>
     </div>
-    <div class="container high-quality-interiors-1" data-aos="shake-up-down">
+    <div class="container high-quality-interiors-1" data-aos="slide-up">
         <div class="row">
             <div class="offset-lg-6 col-lg-6 col-wrapper">
                 <img class="img-fluid" src="<?php echo get_template_directory_uri() . '/resources/assets/images/Asset 7.png'; ?>" alt="">
@@ -80,7 +82,7 @@ while ( have_posts() ) {
             </div>
         </div>
     </div>
-    <div class="container high-quality-interiors-2" data-aos="shake-up-down">
+    <div class="container high-quality-interiors-2" data-aos="slide-up">
         <div class="row">
             <div class="col-lg-10">
                 <img class="img-fluid" src="<?php echo get_template_directory_uri() . '/resources/assets/images/Asset 9.png'; ?>" alt="">
@@ -92,12 +94,12 @@ while ( have_posts() ) {
             </div>
         </div>
     </div>
-    <div class="container key-features" data-aos="shake-up-down">
+    <div class="container key-features" data-aos="slide-up">
         <div class="row pb-5">
-            <div class="offset-lg-3 col-lg-9 d-flex flex-row flex-wrap flex-wrap justify-content-center">
-                <img class="img-fluid img-1" src="<?php echo get_template_directory_uri() . '/resources/assets/images/Asset 10.png'; ?>" alt="">
-                <img class="img-fluid img-2" src="<?php echo get_template_directory_uri() . '/resources/assets/images/Asset 11.png'; ?>" alt="">
-                <img class="img-fluid img-3" src="<?php echo get_template_directory_uri() . '/resources/assets/images/Asset 12.png'; ?>" alt="">
+            <div class="offset-lg-2 col-lg-10 text-center text-lg-right">
+                <img class="img-fluid" src="<?php echo get_template_directory_uri() . '/resources/assets/images/Asset 10.png'; ?>" alt="">
+                <img class="img-fluid" src="<?php echo get_template_directory_uri() . '/resources/assets/images/Asset 11.png'; ?>" alt="">
+                <img class="img-fluid" src="<?php echo get_template_directory_uri() . '/resources/assets/images/Asset 12.png'; ?>" alt="">
             </div>
         </div>
         <div class="row">
@@ -120,14 +122,14 @@ while ( have_posts() ) {
                 </div>
                 <div class="subtitle">Insulation</div>
                 <div class="txt">Insulation to exterior walls and roof to meet NZ Building Code.</div>
-                <a href="<?php echo get_permalink( get_page_by_path( 'design' ) ); ?>" class="d-inline-flex flex-row flex-wrap align-items-center pt-5">
+                <a href="<?php echo get_permalink(get_page_by_path('design')); ?>" class="d-inline-flex flex-row flex-wrap align-items-center pt-5">
                     <div class="txt-readmore">Read More</div>
                     <div class="btn-readmore ml-3"><i class="fa fa-angle-right"></i></div>
                 </a>
             </div>
         </div>
     </div>
-    <div class="container floor-plan" data-aos="shake-up-down">
+    <div class="container floor-plan" data-aos="slide-up" id="plan">
         <div class="row">
             <div class="col-lg-7">
                 <div class="title-wrapper pb-5">
@@ -155,31 +157,31 @@ while ( have_posts() ) {
             </div>
         </div>
         <div class="row">
-            <div class="col-lg-10 text-center">
-                <img class="img-fluid img-compass m-5" src="<?php echo get_template_directory_uri() . '/resources/assets/images/Asset 14.png'; ?>" alt="">
+            <div class="col-lg-12 text-center">
+                <img class="img-fluid m-5" src="<?php echo get_template_directory_uri() . '/resources/assets/images/Asset 14.png'; ?>" alt="">
             </div>
         </div>
         <div class="row">
-            <div class="col-lg-10">
+            <div class="col-lg-12">
                 <div class="tab-content">
                     <div class="tab-pane container fade" id="level4">
-                        <img class="img-fluid img-1" src="<?php echo get_template_directory_uri() . '/resources/assets/images/Asset 13d.jpg'; ?>" alt="">
+                        <img class="img-fluid" src="<?php echo get_template_directory_uri() . '/resources/assets/images/Asset 13.png'; ?>" alt="">
                     </div>
                     <div class="tab-pane container fade" id="level3">
-                        <img class="img-fluid img-1" src="<?php echo get_template_directory_uri() . '/resources/assets/images/Asset 13c.jpg'; ?>" alt="">
+                        <img class="img-fluid" src="<?php echo get_template_directory_uri() . '/resources/assets/images/Asset 13.png'; ?>" alt="">
                     </div>
                     <div class="tab-pane container fade" id="level2">
-                        <img class="img-fluid img-1" src="<?php echo get_template_directory_uri() . '/resources/assets/images/Asset 13b.jpg'; ?>" alt="">
+                        <img class="img-fluid" src="<?php echo get_template_directory_uri() . '/resources/assets/images/Asset 13.png'; ?>" alt="">
                     </div>
                     <div class="tab-pane container active" id="level1">
-                        <img class="img-fluid img-1" src="<?php echo get_template_directory_uri() . '/resources/assets/images/Asset 13.png'; ?>" alt="">
+                        <img class="img-fluid" src="<?php echo get_template_directory_uri() . '/resources/assets/images/Asset 13.png'; ?>" alt="">
                     </div>
                 </div>
             </div>
         </div>
     </div>
-	<?php
-	get_template_part( 'template-parts/contact-form', 'right' );
+    <?php
+    get_template_part('template-parts/contact-form', 'right');
 }
 
 get_footer();

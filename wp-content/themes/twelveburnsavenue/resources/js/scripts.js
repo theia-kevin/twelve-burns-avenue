@@ -2,11 +2,18 @@ window.jQuery = window.$ = require('jquery');
 require('popper.js');
 require('bootstrap');
 import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 require('owl.carousel');
 require('@fortawesome/fontawesome-free/js/all');
+import { Loader } from '@googlemaps/js-api-loader';
 
 $(document).ready(function () {
-  AOS.init();
+  AOS.init({
+    offset: 0,
+    delay: 0, // values from 0 to 3000, with step 50ms
+    duration: 1000, // values from 0 to 3000, with step 50ms
+  });
 
   $('.synced-slide').owlCarousel({
     loop: true,
@@ -18,17 +25,17 @@ $(document).ready(function () {
 
   $('.gallery-slider').owlCarousel({
     loop: true,
-    margin: 50,
+    margin: 30,
     items: 6,
     dots: false,
     center: false,
     URLhashListener: true,
     nav: false,
     responsive: {
-      0 : {
+      0: {
         items: 3
       },
-      992 : {
+      992: {
         items: 6
       }
     }
@@ -56,4 +63,87 @@ $('#open-menu').on('click', () => {
 $('#back-to-top').on('click', e => {
   e.preventDefault();
   $('html, body').animate({scrollTop: 0}, '2000');
+});
+
+let googleMapLoader = new Loader({
+  apiKey: 'AIzaSyDp6zzKdaW3XaW2SZSp_IeOhxDslNolOAk',
+  version: 'weekly'
+}).load().then(() => {
+  let coordinates = {lat: -36.792960, lng: 174.772180};
+  let map = new google.maps.Map(document.getElementById('map'), {
+    center: coordinates,
+    zoom: 14,
+    disableDefaultUI: true,
+    styles: [
+      {
+        'featureType': 'landscape',
+        'stylers': [
+          {
+            'color': '#ffffff'
+          }
+        ]
+      },
+      {
+        'featureType': 'poi',
+        'stylers': [
+          {
+            'visibility': 'off'
+          }
+        ]
+      },
+      {
+        'featureType': 'road',
+        'stylers': [
+          {
+            'color': '#eeedee'
+          }
+        ]
+      },
+      {
+        'featureType': 'road',
+        'elementType': 'labels.text.fill',
+        'stylers': [
+          {
+            'color': '#7d7d7d'
+          }
+        ]
+      },
+      {
+        'featureType': 'road',
+        'elementType': 'labels.text.stroke',
+        'stylers': [
+          {
+            'color': '#ffffff'
+          }
+        ]
+      },
+      {
+        'featureType': 'transit',
+        'stylers': [
+          {
+            'visibility': 'off'
+          }
+        ]
+      },
+      {
+        'featureType': 'water',
+        'stylers': [
+          {
+            'color': '#c8d8d5'
+          }
+        ]
+      }
+    ]
+  });
+
+  const marker = new google.maps.Marker({
+    position: coordinates,
+    map: map,
+    icon: {
+      url: encodeURI(metaData.root_url + `/wp-content/themes/twelveburnsavenue/resources/assets/images/Asset 23.png`),
+      size: new google.maps.Size(718, 110),
+      scaledSize: new google.maps.Size(388, 110),
+      origin: new google.maps.Point(-330, 0),
+    }
+  });
 });

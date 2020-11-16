@@ -31,6 +31,7 @@
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.1",
+    "@googlemaps/js-api-loader": "^1.10.0",
     "animate.css": "^4.1.1",
     "aos": "^3.0.0-beta.6",
     "owl.carousel": "^2.3.4"

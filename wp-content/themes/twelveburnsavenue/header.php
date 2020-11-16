@@ -10,7 +10,7 @@
 <header class="site-header">
 	<?php if ( is_front_page() ) {
 		?>
-        <div class="nav-menu d-flex flex-row flex-wrap justify-content-between align-items-center">
+        <div class="nav-menu d-flex flex-row flex-wrap justify-content-between align-items-center is-front-page">
             <div class="slogan-wrapper">
                 <div class="slogan">
                     <div class="txt-1">We take pride in</div>

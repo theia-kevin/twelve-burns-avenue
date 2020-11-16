@@ -4,7 +4,7 @@ get_header();
 while ( have_posts() ) {
 	the_post();
 	?>
-    <div class="container unbeatable-location" data-aos="shake-up-down">
+    <div class="container unbeatable-location" data-aos="slide-up">
         <div class="row">
             <div class="col-lg-12">
                 <div class="title-wrapper pb-5">
@@ -22,9 +22,9 @@ while ( have_posts() ) {
             </div>
         </div>
     </div>
-    <div class="container property-guru" data-aos="shake-up-down">
+    <div class="container property-guru" data-aos="slide-up">
         <div class="row">
-            <div class="col-lg-12 d-flex flex-row flex-wrap justify-content-center align-items-center">
+            <div class="col-lg-10 m-auto d-flex flex-row flex-wrap justify-content-center align-items-center">
                 <img class="img-fluid img-1" src="<?php echo get_template_directory_uri() . '/resources/assets/images/Asset 19.png'; ?>" alt="">
             </div>
         </div>
@@ -182,7 +182,7 @@ while ( have_posts() ) {
             </div>
         </div>
     </div>
-    <div class="container grand-living" data-aos="shake-up-down">
+    <div class="container grand-living" data-aos="slide-up">
         <div class="row unbeatable-location">
             <div class="offset-lg-6 col-lg-6 col-wrapper">
                 <img class="img-fluid" src="<?php echo get_template_directory_uri() . '/resources/assets/images/Asset 7.png'; ?>" alt="">
@@ -202,7 +202,7 @@ while ( have_posts() ) {
         <div class="row image-sources-1">
             <div class="col-lg-12 d-flex flex-row flex-wrap justify-content-start align-items-center">
                 <div class="text-left">
-                    <img class="img-fluid img-1" src="<?php echo get_template_directory_uri() . '/resources/assets/images/Asset 20.png'; ?>" alt="">
+                    <img class="img-fluid" src="<?php echo get_template_directory_uri() . '/resources/assets/images/Asset 20.png'; ?>" alt="">
                     <div class="txt pt-5 pb-3">Image sources from https://www.newzealand.com/</div>
                 </div>
             </div>
@@ -210,19 +210,19 @@ while ( have_posts() ) {
         <div class="row image-sources-2">
             <div class="col-lg-12 d-flex flex-row flex-wrap justify-content-end align-items-center">
                 <div class="text-right">
-                    <img class="img-fluid img-2" src="<?php echo get_template_directory_uri() . '/resources/assets/images/Asset 21.png'; ?>" alt="">
-                    <img class="img-fluid img-3" src="<?php echo get_template_directory_uri() . '/resources/assets/images/Asset 22.png'; ?>" alt="">
+                    <img class="img-fluid" src="<?php echo get_template_directory_uri() . '/resources/assets/images/Asset 21.png'; ?>" alt="">
+                    <img class="img-fluid" src="<?php echo get_template_directory_uri() . '/resources/assets/images/Asset 22.png'; ?>" alt="">
                     <div class="txt pt-5 pb-3">Image sources from https://www.shore-city.co.nz/takapuna-stores</div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="container north-shore" data-aos="shake-up-down">
+    <div class="container north-shore" data-aos="slide-up">
         <div class="row">
             <div class="col-lg-12">
                 <div class="title-wrapper pb-5">
-                    <div class="title-2">Takapuna</div>
-                    <div class="title-1">The CBD of North Shore</div>
+                    <div class="title-1">Takapuna</div>
+                    <div class="title-2">The CBD of North Shore</div>
                 </div>
                 <div class="txt">
                     <div>Experience having the best support facilities located 360 &#176;</div>
@@ -232,10 +232,15 @@ while ( have_posts() ) {
             </div>
         </div>
     </div>
-    <div class="container-fluid px-0 north-shore-map" data-aos="shake-up-down">
+    <div class="container-fluid px-0 north-shore-map" data-aos="slide-up">
         <div class="row no-gutters">
-            <div class="col-lg-12">
-                <img class="img-fluid img-1" src="<?php echo get_template_directory_uri() . '/resources/assets/images/Asset 23+24.png'; ?>" alt="">
+            <div class="col-lg-10">
+                <div id="map"></div>
+            </div>
+            <div class="col-lg-2 d-none d-lg-block">
+                <div class="rotate">
+                    <span class="title-1">Takapuna</span> <span class="title-2">&#9702; Auckland</span>
+                </div>
             </div>
         </div>
     </div>

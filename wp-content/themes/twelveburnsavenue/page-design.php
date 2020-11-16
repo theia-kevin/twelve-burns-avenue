@@ -1,10 +1,10 @@
 <?php
 get_header();
 
-while ( have_posts() ) {
-	the_post();
-	?>
-    <div class="container-fluid px-0 experience-home" data-aos="shake-up-down">
+while (have_posts()) {
+    the_post();
+    ?>
+    <div class="container-fluid px-0 experience-home" data-aos="slide-up">
         <div class="row no-gutters">
             <div class="col-lg-3 d-flex flex-row flex-wrap justify-content-start align-items-end">
                 <div class="txt">
@@ -24,9 +24,9 @@ while ( have_posts() ) {
             </div>
         </div>
     </div>
-    <div class="container high-standard" data-aos="shake-up-down">
+    <div class="container high-standard" data-aos="slide-up">
         <div class="row">
-            <div class="offset-lg-3 col-lg-9">
+            <div class="offset-lg-2 col-lg-10">
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="title-wrapper-1 pb-5">
@@ -41,7 +41,7 @@ while ( have_posts() ) {
                 </div>
                 <div class="row">
                     <div class="col-lg-6">
-                        <div class="pb-5">
+                        <div class="pb-5 mr-5">
                             <div class="title py-1 my-3">Exterior</div>
                             <div class="subtitle">Structure</div>
                             <div class="txt">Composite concrete floor system; Steel beam and steel</div>
@@ -97,7 +97,7 @@ while ( have_posts() ) {
                             <div class="txt">One letter box to each unit in lobby area.</div>
                             <div class="txt">Stylishly crafted public areas and driveways.</div>
                         </div>
-                        <div class="pb-5">
+                        <div>
                             <div class="title py-1 my-3">Clean</div>
                             <div class="txt">All homes professionally cleaned upon completion.</div>
                         </div>
@@ -106,14 +106,14 @@ while ( have_posts() ) {
             </div>
         </div>
     </div>
-    <div class="container home-for" data-aos="shake-up-down">
+    <div class="container home-for" data-aos="slide-up">
         <div class="row">
             <div class="col-lg-12">
                 <img class="img-fluid" src="<?php echo get_template_directory_uri() . '/resources/assets/images/Asset 29.png'; ?>" alt="">
             </div>
         </div>
     </div>
-    <div class="container high-quality" data-aos="shake-up-down">
+    <div class="container high-quality" data-aos="slide-up">
         <div class="row">
             <div class="col-lg-12">
                 <div class="row">
@@ -204,7 +204,7 @@ while ( have_posts() ) {
             </div>
         </div>
     </div>
-    <div class="container go-to-gallery" data-aos="shake-up-down">
+    <div class="container go-to-gallery" data-aos="slide-up">
         <div class="row pb-5">
             <div class="col-lg-12 d-flex flex-row flex-wrap justify-content-end">
                 <img class="img-fluid img-1" src="<?php echo get_template_directory_uri() . '/resources/assets/images/Asset 30.png'; ?>" alt="">
@@ -213,24 +213,21 @@ while ( have_posts() ) {
         <div class="row">
             <div class="col-lg-12">
                 <div class="d-flex flex-row flex-wrap justify-content-end">
-                    <div class="background-overlay d-inline-flex flex-row flex-wrap align-items-start" style="background-image: url('<?php echo get_template_directory_uri() . '/resources/assets/images/Asset 7.png'; ?>');">
+                    <div>
+                        <img class="img-fluid img-2" src="<?php echo get_template_directory_uri() . '/resources/assets/images/Asset 33.png'; ?>" alt="">
                         <div>
-                            <img class="img-fluid img-2" src="<?php echo get_template_directory_uri() . '/resources/assets/images/Asset 31.png'; ?>" alt="">
-                            <div>
-                                <a href="<?php echo get_permalink( get_page_by_path( 'gallery' ) ); ?>" class="d-inline-flex flex-row flex-wrap align-items-center pt-5">
-                                    <div class="txt-readmore">Go to Gallery</div>
-                                    <div class="btn-readmore ml-3"><i class="fa fa-angle-right"></i></div>
-                                </a>
-                            </div>
+                            <a href="<?php echo get_permalink(get_page_by_path('gallery')); ?>" class="d-inline-flex flex-row flex-wrap align-items-center pt-5">
+                                <div class="txt-readmore">Go to Gallery</div>
+                                <div class="btn-readmore ml-3"><i class="fa fa-angle-right"></i></div>
+                            </a>
                         </div>
-                        <img class="img-fluid img-3" src="<?php echo get_template_directory_uri() . '/resources/assets/images/Asset 32.png'; ?>" alt="">
                     </div>
                 </div>
             </div>
         </div>
     </div>
-	<?php
-	get_template_part( 'template-parts/contact-form', 'right' );
+    <?php
+    get_template_part('template-parts/contact-form', 'right');
 }
 
 get_footer();
