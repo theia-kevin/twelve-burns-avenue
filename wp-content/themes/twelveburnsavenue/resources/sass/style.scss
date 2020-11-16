@@ -714,6 +714,12 @@ footer {
       }
     }
   }
+
+  @include media-breakpoint-down(md) {
+    .title-wrapper {
+      line-height: em(40);
+    }
+  }
 }
 
 .unbeatable-location {
@@ -930,6 +936,12 @@ footer {
 
   #map {
     height: 650px;
+  }
+
+  @include media-breakpoint-down(md) {
+    #map {
+      height: 350px;
+    }
   }
 }
 

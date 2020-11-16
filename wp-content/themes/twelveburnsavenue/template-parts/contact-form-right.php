@@ -1,4 +1,4 @@
-<div class="container contact-form" data-aos="slide-up">
+<div class="container contact-form">
     <div class="row">
         <div class="col-lg-12 d-flex flex-row flex-wrap justify-content-end align-items-center pb-5">
             <div class="title-wrapper text-right">

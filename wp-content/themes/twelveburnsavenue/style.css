@@ -15113,6 +15113,11 @@ footer .container .copyright {
 .floor-plan .nav-tabs .nav-item .nav-link.active {
   font-family: "HelveticaNeue-Bold", sans-serif;
 }
+@media (max-width: 991.98px) {
+  .floor-plan .title-wrapper {
+    line-height: 2.5em;
+  }
+}
 
 .unbeatable-location {
   padding-bottom: calc(2.0625rem + 9.75vw);
@@ -15418,6 +15423,11 @@ footer .container .copyright {
 }
 .north-shore-map #map {
   height: 650px;
+}
+@media (max-width: 991.98px) {
+  .north-shore-map #map {
+    height: 350px;
+  }
 }
 
 .experience-home {
