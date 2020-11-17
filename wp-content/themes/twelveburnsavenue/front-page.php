@@ -157,13 +157,13 @@ while (have_posts()) {
             <div class="col-lg-12">
                 <div class="tab-content">
                     <div class="tab-pane container fade" id="level4">
-                        <img class="img-fluid" src="<?php echo get_template_directory_uri() . '/resources/assets/images/Asset 13.png'; ?>" alt="">
+                        <img class="img-fluid" src="<?php echo get_template_directory_uri() . '/resources/assets/images/Asset 13d.png'; ?>" alt="">
                     </div>
                     <div class="tab-pane container fade" id="level3">
-                        <img class="img-fluid" src="<?php echo get_template_directory_uri() . '/resources/assets/images/Asset 13.png'; ?>" alt="">
+                        <img class="img-fluid" src="<?php echo get_template_directory_uri() . '/resources/assets/images/Asset 13c.png'; ?>" alt="">
                     </div>
                     <div class="tab-pane container fade" id="level2">
-                        <img class="img-fluid" src="<?php echo get_template_directory_uri() . '/resources/assets/images/Asset 13.png'; ?>" alt="">
+                        <img class="img-fluid" src="<?php echo get_template_directory_uri() . '/resources/assets/images/Asset 13b.png'; ?>" alt="">
                     </div>
                     <div class="tab-pane container active" id="level1">
                         <img class="img-fluid" src="<?php echo get_template_directory_uri() . '/resources/assets/images/Asset 13.png'; ?>" alt="">
