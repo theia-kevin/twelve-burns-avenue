@@ -134,10 +134,10 @@ while (have_posts()) {
             <div class="col-lg-3">
                 <ul class="nav nav-tabs flex-column flex-wrap">
                     <li class="nav-item">
-                        <a class="nav-link p-0 py-3 my-1" data-toggle="tab" href="#level4">Level 4</a>
+                        <a class="nav-link p-0 py-3 my-1" data-toggle="tab" href="#level4">Level 3 Upper</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link p-0 py-3 my-1" data-toggle="tab" href="#level3">Level 3</a>
+                        <a class="nav-link p-0 py-3 my-1" data-toggle="tab" href="#level3">Level 3 Lower</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link p-0 py-3 my-1" data-toggle="tab" href="#level2">Level 2</a>
