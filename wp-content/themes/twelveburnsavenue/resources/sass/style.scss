@@ -421,6 +421,7 @@ footer {
     }
 
   }
+
   @include media-breakpoint-down(lg) {
     @include padding-bottom(rem(200));
     .img-wrapper {
@@ -1154,14 +1155,23 @@ footer {
 }
 
 .synced-slide {
-  img {
-    width: rem(300);
+  .owl-item {
+    .img-wrapper {
+      img {
+        display: block;
+        width: auto;
+        height: auto;
+      }
+    }
   }
 }
 
 .gallery-slider {
   @include padding-bottom(rem(300));
   @include margin-top(rem(50));
+  .owl-item {
+    height: rem(80);
+  }
 }
 
 .take-pride {

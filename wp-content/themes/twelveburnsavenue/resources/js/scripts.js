@@ -20,7 +20,8 @@ $(document).ready(function () {
     items: 1,
     dots: false,
     URLhashListener: true,
-    nav: false
+    nav: false,
+    autoHeight: true
   });
 
   $('.gallery-slider').owlCarousel({
@@ -66,7 +67,7 @@ $('#back-to-top').on('click', e => {
 });
 
 let googleMapLoader = new Loader({
-  apiKey: 'AIzaSyDp6zzKdaW3XaW2SZSp_IeOhxDslNolOAk',
+  apiKey: 'AIzaSyC2ESQaUfMU1zOeZdCbRwzLtEyK2bSg1Eg',
   version: 'weekly'
 }).load().then(() => {
   let coordinates = {lat: -36.792960, lng: 174.772180};

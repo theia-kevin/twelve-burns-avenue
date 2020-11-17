@@ -27506,7 +27506,8 @@ $(document).ready(function () {
     items: 1,
     dots: false,
     URLhashListener: true,
-    nav: false
+    nav: false,
+    autoHeight: true
   });
   $('.gallery-slider').owlCarousel({
     loop: true,
@@ -27559,7 +27560,7 @@ $('#back-to-top').on('click', function (e) {
   }, '2000');
 });
 var googleMapLoader = new _googlemaps_js_api_loader__WEBPACK_IMPORTED_MODULE_2__["Loader"]({
-  apiKey: 'AIzaSyDp6zzKdaW3XaW2SZSp_IeOhxDslNolOAk',
+  apiKey: 'AIzaSyC2ESQaUfMU1zOeZdCbRwzLtEyK2bSg1Eg',
   version: 'weekly'
 }).load().then(function () {
   var coordinates = {

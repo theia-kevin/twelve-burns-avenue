@@ -15703,8 +15703,10 @@ footer .container .copyright {
   transform: translate(-50%, -50%);
 }
 
-.synced-slide img {
-  width: 18.75rem;
+.synced-slide .owl-item .img-wrapper img {
+  display: block;
+  width: auto;
+  height: auto;
 }
 
 .gallery-slider {
@@ -15720,6 +15722,9 @@ footer .container .copyright {
   .gallery-slider {
     margin-top: 3.125rem;
   }
+}
+.gallery-slider .owl-item {
+  height: 5rem;
 }
 
 .take-pride {
