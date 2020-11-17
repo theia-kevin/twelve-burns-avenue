@@ -13,7 +13,7 @@
                     <div>enthusiasm.</div>
                 </div>
                 <div class="d-flex flex-row flex-wrap justify-content-between w-75">
-                    <div class="copyright">Renders by ******* Ltd | Brand and Website by THEIA</div>
+                    <div class="copyright">Brand and Website by THEIA</div>
                     <img src="<?php echo get_template_directory_uri() . '/resources/assets/images/Asset 18.png'; ?>" alt="">
                 </div>
             </div>
