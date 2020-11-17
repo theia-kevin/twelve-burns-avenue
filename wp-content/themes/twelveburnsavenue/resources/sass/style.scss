@@ -40,7 +40,7 @@ html {
 
 .nav-menu {
   @include padding(rem(60));
-  @include padding-bottom(rem(80));
+  @include padding-bottom(rem(60));
 
   .slogan-wrapper {
     position: relative;
@@ -369,69 +369,74 @@ footer {
 .burns-ave {
   @include padding-bottom(rem(400));
 
-  .img-twelve {
-    width: rem(700);
-  }
-
-  .col-wrapper {
+  .img-wrapper {
+    display: inline-block;
     position: relative;
+
+    .img-twelve {
+      width: rem(700);
+    }
 
     .content-wrapper {
       position: absolute;
-      top: 70%;
-      right: 0;
-
-      .year {
-        color: #212529;
-        font-family: 'HelveticaNeue-Bold', sans-serif;
-        @include font-size(rem(40));
-      }
+      width: 62%;
+      top: 69%;
+      left: 102%;
 
       .title-wrapper {
         line-height: em(65);
-        text-align: right;
+
+        .year {
+          color: #212529;
+          font-family: 'HelveticaNeue-Bold', sans-serif;
+          @include font-size(rem(40));
+          text-align: right;
+        }
 
         .title-1 {
           color: #212529;
           font-family: 'HelveticaNeue-Bold', sans-serif;
-          @include font-size(rem(70));
+          @include font-size(rem(75));
           text-transform: uppercase;
         }
 
         .title-2 {
           color: #212529;
           font-family: 'HelveticaNeue-Thin', sans-serif;
-          @include font-size(rem(43));
+          @include font-size(rem(40));
           text-transform: uppercase;
         }
       }
 
-      .txt-wrapper {
-        line-height: em(35);
+      .txt {
+        line-height: em(20);
+        color: #212529;
+        font-family: 'HelveticaNeue-Thin', sans-serif;
+        @include font-size(rem(20));
 
-        .txt-1, .txt-2, .txt-3, .txt-4, .txt-5 {
-          color: #212529;
-          font-family: 'HelveticaNeue-Thin', sans-serif;
-          @include font-size(rem(28));
-
-          .three-sixty {
-            font-family: 'HelveticaNeue-bold', sans-serif;
-          }
+        .three-sixty {
+          font-family: 'HelveticaNeue-bold', sans-serif;
         }
       }
     }
-  }
 
+  }
   @include media-breakpoint-down(lg) {
     @include padding-bottom(rem(200));
-    .col-wrapper {
+    .img-wrapper {
       .content-wrapper {
         position: relative;
         top: 0;
         left: 0;
+        @include padding-top(rem(30));
+        @include padding-bottom(rem(30));
+        @include margin-left(auto);
+        @include margin-right(auto);
 
         .title-wrapper {
-          line-height: em(45);
+          .year {
+            text-align: left;
+          }
         }
       }
     }
@@ -1167,8 +1172,6 @@ footer {
   }
 
   .content-wrapper {
-    @include padding-bottom(rem(200));
-
     .title {
       color: #212529;
       font-family: 'HelveticaNeue-Bold', sans-serif;
@@ -1185,11 +1188,5 @@ footer {
         font-family: 'HelveticaNeue-Bold', sans-serif;
       }
     }
-  }
-
-  .our-partners {
-    color: #212529;
-    font-family: 'HelveticaNeue-Medium', sans-serif;
-    @include font-size(rem(22));
   }
 }

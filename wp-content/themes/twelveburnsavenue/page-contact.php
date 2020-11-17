@@ -36,32 +36,6 @@ while ( have_posts() ) {
                         <div>community, with sustainable and innovative projects.</div>
                     </div>
                 </div>
-                <div class="our-partners">
-                    <div class="title pb-5">Our Partners:</div>
-                    <div class="row">
-                        <div class="col-lg-8">
-                            <div class="row">
-                                <div class="col-lg-6 d-flex flex-row flex-wrap justify-content-center align-items-center">
-                                    <img class="p-3" src="<?php echo get_template_directory_uri() . '/resources/assets/images/Asset 40.png'; ?>" alt="">
-                                </div>
-                                <div class="col-lg-6 d-flex flex-row flex-wrap justify-content-center align-items-center">
-                                    <img class="p-3" src="<?php echo get_template_directory_uri() . '/resources/assets/images/Asset 42.png'; ?>" alt="">
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-lg-6 d-flex flex-row flex-wrap justify-content-center align-items-center">
-                                    <img class="p-3" src="<?php echo get_template_directory_uri() . '/resources/assets/images/Asset 44.png'; ?>" alt="">
-                                </div>
-                                <div class="col-lg-6 d-flex flex-row flex-wrap justify-content-center align-items-center">
-                                    <img class="p-3" src="<?php echo get_template_directory_uri() . '/resources/assets/images/Asset 45.png'; ?>" alt="">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 d-flex flex-row flex-wrap justify-content-center align-items-start">
-                            <img class="p-3" src="<?php echo get_template_directory_uri() . '/resources/assets/images/Asset 43.png'; ?>" alt="">
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
     </div>
