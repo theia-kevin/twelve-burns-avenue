@@ -24,6 +24,13 @@ function addFavicon()
     <?php
 }
 
+function addFaviconAdmin() {
+    ?>
+    <link rel="shortcut icon" href="<?php echo get_template_directory_uri() . '/resources/assets/images/Asset 12.png'; ?>"/>
+    <?php
+}
+
 add_action('wp_head', 'addFavicon');
+add_action( 'admin_head', 'addFaviconAdmin' );
 add_action('wp_enqueue_scripts', 'addStyling');
 add_action('after_setup_theme', 'configureWordpressFeatures');
