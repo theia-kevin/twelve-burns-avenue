@@ -20,7 +20,7 @@ function configureWordpressFeatures()
 function addFavicon()
 {
     ?>
-    <link rel="shortcut icon" href="<?php echo get_template_directory_uri() . '/resources/assets/images/Asset 36.png'; ?>"/>
+    <link rel="shortcut icon" href="<?php echo get_template_directory_uri() . '/resources/assets/images/Asset 12.png'; ?>"/>
     <?php
 }
 
