@@ -15758,7 +15758,10 @@ footer .container .copyright a {
 }
 @media (max-width: 991.98px) {
   .synced-slide .owl-nav {
-    width: 80%;
+    width: 100%;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -100%);
   }
 }
 
