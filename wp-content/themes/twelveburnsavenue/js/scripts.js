@@ -27506,8 +27506,9 @@ $(document).ready(function () {
     items: 1,
     dots: false,
     URLhashListener: true,
-    nav: false,
-    autoHeight: true
+    autoHeight: true,
+    nav: true,
+    navText: ['<div class="btn-readmore"><i class="fa fa-angle-left"></i></div>', '<div class="btn-readmore"><i class="fa fa-angle-right"></i></div>']
   });
   $('.gallery-slider').owlCarousel({
     loop: true,
