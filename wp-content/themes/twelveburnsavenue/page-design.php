@@ -29,7 +29,7 @@ while (have_posts()) {
             <div class="offset-lg-2 col-lg-10">
                 <div class="row">
                     <div class="col-lg-12">
-                        <div class="title-wrapper-1 pb-5">
+                        <div class="title-wrapper-1 pb-3">
                             <div class="title-1">High Standard</div>
                             <div class="title-2">Construction</div>
                         </div>
@@ -44,32 +44,22 @@ while (have_posts()) {
                         <div class="pb-5 mr-5">
                             <div class="title py-1 my-3">Exterior</div>
                             <div class="subtitle">Structure</div>
-                            <div class="txt">Composite concrete floor system; Steel beam and steel</div>
-                            <div class="txt pb-1"> column system with H1.2 Structural framing exterior wall.</div>
+                            <div class="txt pb-2">Composite concrete floor system; Steel beam and steelcolumn system with H1.2 Structural framing exterior wall.</div>
                             <div class="subtitle">Cladding</div>
-                            <div class="txt">High quality mix of exterior and long lasting cladding</div>
-                            <div class="txt">materials with a layer of GIB Weather line system as Rigid air</div>
-                            <div class="txt pb-1">barrier giving additional weather protection.</div>
+                            <div class="txt pb-2">High quality mix of exterior and long lasting cladding materials with a layer of GIB Weather line system as Rigid air barrier giving additional weather protection.</div>
                             <div class="subtitle">Roof</div>
                             <div class="txt">Metal craft colour steel long run roof</div>
-                            <div class="txt">Exposed Downpipe: Metal downpipe system with colour steel</div>
-                            <div class="txt">finish.</div>
-                            <div class="txt pb-1">Powder coated aluminium joinery with double glazing.</div>
+                            <div class="txt">Exposed Downpipe: Metal downpipe system with colour steel finish.</div>
+                            <div class="txt pb-2">Powder coated aluminium joinery with double glazing.</div>
                             <div class="subtitle">Balcony</div>
-                            <div class="txt">Glass balustrade and composite decking on jacks over</div>
-                            <div class="txt pb-1">membrane to concrete and steel structure.</div>
+                            <div class="txt pb-2">Glass balustrade and composite decking on jacks over membrane to concrete and steel structure.</div>
                             <div class="subtitle">Insulation</div>
-                            <div class="txt">Insulation to exterior walls and roof to meet NZ Building</div>
-                            <div class="txt">Code.</div>
+                            <div class="txt pb-2">Insulation to exterior walls and roof to meet NZ Building Code.</div>
                         </div>
                         <div class="pb-5">
                             <div class="title py-1 my-3">Services</div>
-                            <div class="txt">Underground services included. Connections to water,</div>
-                            <div class="txt">power and fibre.</div>
-                            <div class="txt">Security Access: All external doors and gates into the</div>
-                            <div class="txt">apartment lobby are to be fitted with a security system</div>
-                            <div class="txt">included access control via card reader and video intercom</div>
-                            <div class="txt">from each apartment.</div>
+                            <div class="txt">Underground services included. Connections to water, power and fibre.</div>
+                            <div class="txt">Security Access: All external doors and gates into the apartment lobby are to be fitted with a security system included access control via card reader and video intercom from each apartment.</div>
                         </div>
                     </div>
                     <div class="col-lg-6">
@@ -99,7 +89,7 @@ while (have_posts()) {
                         </div>
                         <div>
                             <div class="title py-1 my-3">Clean</div>
-                            <div class="txt">All homes professionally cleaned upon completion.</div>
+                            <div class="txt pb-2">All homes professionally cleaned upon completion.</div>
                         </div>
                     </div>
                 </div>
@@ -118,7 +108,7 @@ while (have_posts()) {
             <div class="col-lg-12">
                 <div class="row">
                     <div class="col-lg-12">
-                        <div class="title-wrapper-1 pb-5">
+                        <div class="title-wrapper-1 pb-3">
                             <div class="title-1">High Quality</div>
                             <div class="title-2">Interiors</div>
                         </div>
@@ -133,17 +123,13 @@ while (have_posts()) {
                         <div class="pb-5">
                             <div class="title py-1 my-3">Interior</div>
                             <div class="subtitle">Lift</div>
-                            <div class="txt pb-1">Schindler 3300MRL-1000kg.</div>
+                            <div class="txt pb-2">Schindler 3300MRL-1000kg.</div>
                             <div class="subtitle">Storage Lockers</div>
-                            <div class="txt pb-1">Lockers to basement car park with full width lockable doors.</div>
+                            <div class="txt pb-2">Lockers to basement car park with full width lockable doors.</div>
                             <div class="subtitle">Lining</div>
-                            <div class="txt pb-1">GIB plasterboard to wall and ceilings / GIB Aqua line to all bathroom
-                                and
-                                laundry areas
-                            </div>
+                            <div class="txt pb-2">GIB plasterboard to wall and ceilings / GIB Aqua line to all bathroom and laundry areas</div>
                             <div class="subtitle">Ceiling heights</div>
-                            <div class="txt pb-3">Generally 2.5m&#177; nominal with bulkhead, bathrooms at 2.4m min.
-                            </div>
+                            <div class="txt pb-1">Generally 2.5m&#177; nominal with bulkhead, bathrooms at 2.4m min.</div>
                             <div class="txt">Flush panel painted interior doors.</div>
                             <div class="txt">High quality paint system, acrylic enamel paint to wet areas.</div>
                             <div class="txt">Generous wardrobe organisers to all bedrooms.</div>
@@ -171,8 +157,7 @@ while (have_posts()) {
                             <div class="txt">Professional designed kitchen spaces.</div>
                             <div class="txt">Luxurious reconstituted stone bench tops.</div>
                             <div class="txt">Soft close drawer glides and door hinges.</div>
-                            <div class="txt">Large format ‘marble look’ porcelain tile to splash</div>
-                            <div class="txt">backs.</div>
+                            <div class="txt">Large format ‘marble look’ porcelain tile to splash backs.</div>
                             <div class="txt">Undermount stainless steel sinks.</div>
                             <div class="txt">Rebated LED strap lightining.</div>
                             <div class="txt">Stylish cabinetry.</div>

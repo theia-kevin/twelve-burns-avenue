@@ -14670,6 +14670,9 @@ footer .container .copyright {
   font-family: "HelveticaNeue", sans-serif;
   font-size: 0.75rem;
 }
+footer .container .copyright a {
+  color: #FFFFFF;
+}
 @media (max-width: 991.98px) {
   footer .container .img-1 {
     top: -5.625rem;
@@ -14725,12 +14728,13 @@ footer .container .copyright {
 .burns-ave .img-wrapper .content-wrapper .title-wrapper .title-2 {
   color: #212529;
   font-family: "HelveticaNeue-Thin", sans-serif;
-  font-size: calc(1.375rem + 1.5vw);
+  font-size: calc(1.34375rem + 1.125vw);
   text-transform: uppercase;
+  white-space: nowrap;
 }
 @media (min-width: 1200px) {
   .burns-ave .img-wrapper .content-wrapper .title-wrapper .title-2 {
-    font-size: 2.5rem;
+    font-size: 2.1875rem;
   }
 }
 .burns-ave .img-wrapper .content-wrapper .txt {
@@ -15245,6 +15249,12 @@ footer .container .copyright {
   color: #212529;
   font-family: "HelveticaNeue", sans-serif;
   font-size: 1rem;
+}
+.property-guru .content-wrapper .txt div:nth-child(1) {
+  width: 80%;
+}
+.property-guru .content-wrapper .txt div:nth-child(2) {
+  width: 20%;
 }
 .property-guru .provided-by {
   padding-left: calc(1.5rem + 3vw);

@@ -29,7 +29,7 @@ while ( have_posts() ) {
             </div>
         </div>
         <div class="row justify-content-center">
-            <div class="col-lg-5">
+            <div class="col-lg-6">
                 <div class="content-wrapper">
                     <div class="title py-3">Education</div>
                     <div class="txt d-flex flex-row flex-wrap justify-content-between">
@@ -97,7 +97,7 @@ while ( have_posts() ) {
                     </div>
                 </div>
             </div>
-            <div class="col-lg-5">
+            <div class="col-lg-6">
                 <div class="content-wrapper">
                     <div class="title py-3">Transport</div>
                     <div class="txt d-flex flex-row flex-wrap justify-content-between">

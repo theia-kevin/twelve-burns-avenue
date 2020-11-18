@@ -354,6 +354,9 @@ footer {
       color: #FFFFFF;
       font-family: 'HelveticaNeue', sans-serif;
       @include font-size(rem(12));
+      a {
+        color: #FFFFFF;
+      }
     }
   }
 
@@ -403,8 +406,9 @@ footer {
         .title-2 {
           color: #212529;
           font-family: 'HelveticaNeue-Thin', sans-serif;
-          @include font-size(rem(40));
+          @include font-size(rem(35));
           text-transform: uppercase;
+          white-space: nowrap;
         }
       }
 
@@ -802,6 +806,14 @@ footer {
       color: #212529;
       font-family: 'HelveticaNeue', sans-serif;
       @include font-size(rem(16));
+
+      div:nth-child(1) {
+        width: 80%;
+      }
+
+      div:nth-child(2) {
+        width: 20%;
+      }
     }
   }
 
