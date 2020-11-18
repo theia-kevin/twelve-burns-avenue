@@ -20,13 +20,13 @@ function configureWordpressFeatures()
 function addFavicon()
 {
     ?>
-    <link rel="shortcut icon" href="<?php echo get_template_directory_uri() . '/resources/assets/images/Asset 12.png'; ?>"/>
+    <link rel="shortcut icon" href="<?php echo get_template_directory_uri() . '/resources/assets/images/favicon.jpg'; ?>"/>
     <?php
 }
 
 function addFaviconAdmin() {
     ?>
-    <link rel="shortcut icon" href="<?php echo get_template_directory_uri() . '/resources/assets/images/Asset 12.png'; ?>"/>
+    <link rel="shortcut icon" href="<?php echo get_template_directory_uri() . '/resources/assets/images/favicon.jpg'; ?>"/>
     <?php
 }
 
