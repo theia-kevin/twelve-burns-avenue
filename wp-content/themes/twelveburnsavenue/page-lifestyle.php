@@ -24,7 +24,7 @@ while ( have_posts() ) {
     </div>
     <div class="container property-guru" data-aos="slide-up">
         <div class="row">
-            <div class="col-lg-10 m-auto d-flex flex-row flex-wrap justify-content-center align-items-center">
+            <div class="col-lg-12 m-auto d-flex flex-row flex-wrap justify-content-center align-items-center">
                 <img class="img-fluid img-1" src="<?php echo get_template_directory_uri() . '/resources/assets/images/Asset 19.png'; ?>" alt="">
             </div>
         </div>

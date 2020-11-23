@@ -8,6 +8,9 @@ while ( have_posts() ) {
         <div class="row">
             <div class="col-lg-12">
                 <div class="synced-slide owl-carousel owl-theme">
+                    <div class="img-wrapper" data-hash="photo-15">
+                        <img src="<?php echo get_template_directory_uri() . '/resources/assets/gallery/8f28bd64eb17a4cf346103f5846d2ce.jpg'; ?>" alt="">
+                    </div>
                     <div class="img-wrapper" data-hash="photo-1">
                         <img src="<?php echo get_template_directory_uri() . '/resources/assets/gallery/1 (1)(1).jpg'; ?>" alt="">
                     </div>
@@ -49,9 +52,6 @@ while ( have_posts() ) {
                     </div>
                     <div class="img-wrapper" data-hash="photo-14">
                         <img src="<?php echo get_template_directory_uri() . '/resources/assets/gallery/6.jpg'; ?>" alt="">
-                    </div>
-                    <div class="img-wrapper" data-hash="photo-15">
-                        <img src="<?php echo get_template_directory_uri() . '/resources/assets/gallery/8f28bd64eb17a4cf346103f5846d2ce.jpg'; ?>" alt="">
                     </div>
                     <div class="img-wrapper" data-hash="photo-16">
                         <img src="<?php echo get_template_directory_uri() . '/resources/assets/gallery/11.jpg'; ?>" alt="">
@@ -110,6 +110,9 @@ while ( have_posts() ) {
         <div class="row">
             <div class="col-lg-12">
                 <div class="gallery-slider owl-carousel owl-theme">
+                    <a href="#photo-15" data-hash="photo-15">
+                        <img class="img-fluid" src="<?php echo get_template_directory_uri() . '/resources/assets/gallery/8f28bd64eb17a4cf346103f5846d2ce.jpg'; ?>" alt="">
+                    </a>
                     <a href="#photo-1" data-hash="photo-1">
                         <img class="img-fluid" src="<?php echo get_template_directory_uri() . '/resources/assets/gallery/1 (1)(1).jpg'; ?>" alt="">
                     </a>
@@ -151,9 +154,6 @@ while ( have_posts() ) {
                     </a>
                     <a href="#photo-14" data-hash="photo-14">
                         <img class="img-fluid" src="<?php echo get_template_directory_uri() . '/resources/assets/gallery/6.jpg'; ?>" alt="">
-                    </a>
-                    <a href="#photo-15" data-hash="photo-15">
-                        <img class="img-fluid" src="<?php echo get_template_directory_uri() . '/resources/assets/gallery/8f28bd64eb17a4cf346103f5846d2ce.jpg'; ?>" alt="">
                     </a>
                     <a href="#photo-16" data-hash="photo-16">
                         <img class="img-fluid" src="<?php echo get_template_directory_uri() . '/resources/assets/gallery/11.jpg'; ?>" alt="">

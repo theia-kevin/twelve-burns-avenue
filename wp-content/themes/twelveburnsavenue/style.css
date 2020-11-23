@@ -14438,7 +14438,7 @@ html {
   transform: translateY(-50%);
 }
 .nav-menu .menu .menu-item #open-menu {
-  font-size: 1.25rem;
+  font-size: 1.125rem;
 }
 .nav-menu.is-front-page .menu .menu-item.current_page_item a {
   font-family: "HelveticaNeue", sans-serif;
@@ -14546,7 +14546,7 @@ html {
   background: none;
   color: #AC9384;
   font-family: "HelveticaNeue-Bold", sans-serif;
-  font-size: 1.25rem;
+  font-size: 1.125rem;
   text-transform: uppercase;
   position: relative;
   width: 100%;
@@ -14618,7 +14618,7 @@ html {
 .contact-form .contact-card .txt {
   color: #212529;
   font-family: "HelveticaNeue-Light", sans-serif;
-  font-size: 1.25rem;
+  font-size: 1rem;
 }
 .contact-form .contact-card .txt .txt-strong {
   font-family: "HelveticaNeue-Bold", sans-serif;
@@ -14706,12 +14706,12 @@ footer .container .copyright a {
 .burns-ave .img-wrapper .content-wrapper .title-wrapper .year {
   color: #212529;
   font-family: "HelveticaNeue-Bold", sans-serif;
-  font-size: calc(1.375rem + 1.5vw);
+  font-size: calc(1.35rem + 1.2vw);
   text-align: right;
 }
 @media (min-width: 1200px) {
   .burns-ave .img-wrapper .content-wrapper .title-wrapper .year {
-    font-size: 2.5rem;
+    font-size: 2.25rem;
   }
 }
 .burns-ave .img-wrapper .content-wrapper .title-wrapper .title-1 {
@@ -14731,6 +14731,7 @@ footer .container .copyright a {
   font-size: calc(1.34375rem + 1.125vw);
   text-transform: uppercase;
   white-space: nowrap;
+  padding-left: 0.4375rem;
 }
 @media (min-width: 1200px) {
   .burns-ave .img-wrapper .content-wrapper .title-wrapper .title-2 {
@@ -14742,6 +14743,7 @@ footer .container .copyright a {
   color: #212529;
   font-family: "HelveticaNeue-Thin", sans-serif;
   font-size: 1.25rem;
+  padding-left: 0.625rem;
 }
 .burns-ave .img-wrapper .content-wrapper .txt .three-sixty {
   font-family: "HelveticaNeue-bold", sans-serif;
@@ -14816,28 +14818,18 @@ footer .container .copyright a {
 .lifestyle .txt-wrapper .txt-1 {
   color: #000000;
   font-family: "HelveticaNeue", sans-serif;
-  font-size: calc(1.2625rem + 0.15vw);
+  font-size: 1.125rem;
   font-weight: 600;
-}
-@media (min-width: 1200px) {
-  .lifestyle .txt-wrapper .txt-1 {
-    font-size: 1.375rem;
-  }
 }
 .lifestyle .txt-wrapper .txt-2 {
   color: #000000;
   font-family: "HelveticaNeue", sans-serif;
-  font-size: calc(1.2625rem + 0.15vw);
-}
-@media (min-width: 1200px) {
-  .lifestyle .txt-wrapper .txt-2 {
-    font-size: 1.375rem;
-  }
+  font-size: 1.125rem;
 }
 .lifestyle .txt-readmore {
   color: #AC9384;
   font-family: "HelveticaNeue-Bold", sans-serif;
-  font-size: 1.25rem;
+  font-size: 1.125rem;
   text-transform: uppercase;
 }
 .lifestyle .btn-readmore {
@@ -15030,7 +15022,7 @@ footer .container .copyright a {
 .key-features .txt-readmore {
   color: #AC9384;
   font-family: "HelveticaNeue-Bold", sans-serif;
-  font-size: 1.25rem;
+  font-size: 1.125rem;
   text-transform: uppercase;
 }
 .key-features .btn-readmore {
@@ -15248,7 +15240,7 @@ footer .container .copyright a {
 .property-guru .content-wrapper .txt {
   color: #212529;
   font-family: "HelveticaNeue", sans-serif;
-  font-size: 1rem;
+  font-size: 0.875rem;
 }
 .property-guru .content-wrapper .txt div:nth-child(1) {
   width: 80%;
@@ -15464,9 +15456,8 @@ footer .container .copyright a {
   padding-right: calc(1.4375rem + 2.25vw);
   color: #000000;
   font-family: "HelveticaNeue-Thin", sans-serif;
-  font-size: 1.125rem;
+  font-size: 1rem;
   line-height: 1.5625em;
-  text-align: justify;
 }
 @media (min-width: 1200px) {
   .experience-home .txt {
@@ -15695,7 +15686,7 @@ footer .container .copyright a {
 .go-to-gallery .txt-readmore {
   color: #AC9384;
   font-family: "HelveticaNeue-Bold", sans-serif;
-  font-size: 1.25rem;
+  font-size: 1.125rem;
   text-transform: uppercase;
 }
 .go-to-gallery .btn-readmore {

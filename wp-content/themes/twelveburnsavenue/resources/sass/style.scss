@@ -123,7 +123,7 @@ html {
       }
 
       #open-menu {
-        @include font-size(rem(20));
+        @include font-size(rem(18));
       }
     }
   }
@@ -218,7 +218,7 @@ html {
         background: none;
         color: #AC9384;
         font-family: 'HelveticaNeue-Bold', sans-serif;
-        @include font-size(rem(20));
+        @include font-size(rem(18));
         text-transform: uppercase;
         position: relative;
         width: 100%;
@@ -301,7 +301,7 @@ html {
     .txt {
       color: #212529;
       font-family: 'HelveticaNeue-Light', sans-serif;
-      @include font-size(rem(20));
+      @include font-size(rem(16));
 
       .txt-strong {
         font-family: 'HelveticaNeue-Bold', sans-serif;
@@ -392,7 +392,7 @@ footer {
         .year {
           color: #212529;
           font-family: 'HelveticaNeue-Bold', sans-serif;
-          @include font-size(rem(40));
+          @include font-size(rem(36));
           text-align: right;
         }
 
@@ -409,6 +409,7 @@ footer {
           @include font-size(rem(35));
           text-transform: uppercase;
           white-space: nowrap;
+          @include padding-left(rem(7));
         }
       }
 
@@ -417,6 +418,7 @@ footer {
         color: #212529;
         font-family: 'HelveticaNeue-Thin', sans-serif;
         @include font-size(rem(20));
+        @include padding-left(rem(10));
 
         .three-sixty {
           font-family: 'HelveticaNeue-bold', sans-serif;
@@ -474,21 +476,21 @@ footer {
     .txt-1 {
       color: #000000;
       font-family: 'HelveticaNeue', sans-serif;
-      @include font-size(rem(22));
+      @include font-size(rem(18));
       font-weight: 600;
     }
 
     .txt-2 {
       color: #000000;
       font-family: 'HelveticaNeue', sans-serif;
-      @include font-size(rem(22));
+      @include font-size(rem(18));
     }
   }
 
   .txt-readmore {
     color: #AC9384;
     font-family: 'HelveticaNeue-Bold', sans-serif;
-    @include font-size(rem(20));
+    @include font-size(rem(18));
     text-transform: uppercase;
   }
 
@@ -645,7 +647,7 @@ footer {
   .txt-readmore {
     color: #AC9384;
     font-family: 'HelveticaNeue-Bold', sans-serif;
-    @include font-size(rem(20));
+    @include font-size(rem(18));
     text-transform: uppercase;
   }
 
@@ -805,7 +807,7 @@ footer {
     .txt {
       color: #212529;
       font-family: 'HelveticaNeue', sans-serif;
-      @include font-size(rem(16));
+      @include font-size(rem(14));
 
       div:nth-child(1) {
         width: 80%;
@@ -971,9 +973,8 @@ footer {
     @include padding-right(rem(50));
     color: #000000;
     font-family: 'HelveticaNeue-Thin', sans-serif;
-    @include font-size(rem(18));
+    @include font-size(rem(16));
     line-height: em(25);
-    text-align: justify;
 
     .big-e {
       font-family: 'HelveticaNeue-Bold', sans-serif;
@@ -1145,7 +1146,7 @@ footer {
   .txt-readmore {
     color: #AC9384;
     font-family: 'HelveticaNeue-Bold', sans-serif;
-    @include font-size(rem(20));
+    @include font-size(rem(18));
     text-transform: uppercase;
   }
 
