@@ -21,7 +21,7 @@
             <div class="row contact-card w-100">
                 <div class="col-lg-6 pb-5">
                     <div class="logo">
-                        <img class="img-fluid" src="<?php echo get_template_directory_uri() . '/resources/assets/images/Asset 16.png'; ?>" alt="">
+                        <img class="img-fluid" src="<?php echo get_template_directory_uri() . '/resources/assets/images/agent premium-200.jpg'; ?>" alt="">
                     </div>
                     <div class="txt">
                         <div class="txt-strong">Wanly Tsang</div>
@@ -33,7 +33,7 @@
                 </div>
                 <div class="col-lg-6 pb-5">
                     <div class="logo">
-                        <img class="img-fluid" src="<?php echo get_template_directory_uri() . '/resources/assets/images/Asset 17.png'; ?>" alt="">
+                        <img class="img-fluid" src="<?php echo get_template_directory_uri() . '/resources/assets/images/agent premium2-200.jpg'; ?>" alt="">
                     </div>
                     <div class="txt">
                         <div class="txt-strong">Joe Qiang</div>
