@@ -24,11 +24,12 @@
                         <img class="img-fluid" src="<?php echo get_template_directory_uri() . '/resources/assets/images/agent premium-200.jpg'; ?>" alt="">
                     </div>
                     <div class="txt">
-                        <div class="txt-strong">Wanly Tsang</div>
-                        <div><span class="txt-strong">M</span> 027 473 2468</div>
-                        <div><span class="txt-strong">P</span> 09 477 4224</div>
-                        <div>wanly.tsang@harcourts.co.nz</div>
-                        <div>www.wanly.co.nz</div>
+                        <div class="txt-strong">Gerry Petrie</div>
+                        <div><span class="txt-strong">M</span> 021 923 352</div>
+                        <div><span class="txt-strong">P</span> 09 916 4390</div>
+                        <div>gerrypetrie@permium.co.nz</div>
+                        <div>Premium Real Estate Ltd</div>
+                        <div>Licensed under the REA Act 2008</div>
                     </div>
                 </div>
                 <div class="col-lg-6 pb-5">
@@ -36,10 +37,12 @@
                         <img class="img-fluid" src="<?php echo get_template_directory_uri() . '/resources/assets/images/agent premium2-200.jpg'; ?>" alt="">
                     </div>
                     <div class="txt">
-                        <div class="txt-strong">Joe Qiang</div>
-                        <div><span class="txt-strong">M</span> 021 925 422</div>
-                        <div><span class="txt-strong">P</span> 09 477 4253</div>
-                        <div>joe.qiang@harcourts.co.nz</div>
+                        <div class="txt-strong">Alison Parker</div>
+                        <div><span class="txt-strong">M</span> 021 983 533</div>
+                        <div><span class="txt-strong">P</span> 09 916 4381</div>
+                        <div>alisonparker@premium.co.nz</div>
+                        <div>Premium Real Estate Ltd</div>
+                        <div>Licensed under the REA Act 2008</div>
                     </div>
                 </div>
             </div>
